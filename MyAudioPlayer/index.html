@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Simple Music Player</title>
+<!-- Load FontAwesome icons -->
+<link rel="stylesheet"
+		href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<audio autoplay>
+  <source src="sound/ambience.mp3" type="audio/mpeg">
+</audio>
+<div class="player">
+	<div class="track-art" onclick="myAudioFunction('butterfly');" id="butterfly">
+		<img src="img/butterfly.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('door');" id="door">
+		<img src="img/door.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('leaves');" id="leaves">
+		<img src="img/leaves.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('nuts');" id="nuts">
+		<img src="img/nuts.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('soil');" id="soil">
+		<img src="img/soil.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('water');" id="water">
+		<img src="img/water.jpg" alt="">
+	</div>
+	<div class="track-art" onclick="myAudioFunction('wolves');" id="wolves">
+		<img src="img/wolves.jpg" alt="">
+	</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
